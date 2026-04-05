@@ -172,7 +172,9 @@ a{
     nav ul{
         flex-direction:row;
     justify-content: center;
-        flex-wrap: nowrap;
+    }
+    nav ul li a{
+        font-size:0.8rem;
     }
 
     .content-section{
@@ -187,10 +189,5 @@ a{
         gap:5px;}
     .label{
         width:auto;
-    }
-}
-
-    .label {
-        width: auto;
     }
 }
